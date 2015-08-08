@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70AFB0471B75E7910008E45A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AFB0461B75E7910008E45A /* main.m */; };
+		70AFB04A1B75E7910008E45A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AFB0491B75E7910008E45A /* AppDelegate.m */; };
+		70AFB04D1B75E7910008E45A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AFB04C1B75E7910008E45A /* GameScene.m */; };
+		70AFB04F1B75E7910008E45A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 70AFB04E1B75E7910008E45A /* GameScene.sks */; };
+		70AFB0521B75E7910008E45A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AFB0511B75E7910008E45A /* GameViewController.m */; };
+		70AFB0551B75E7910008E45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AFB0531B75E7910008E45A /* Main.storyboard */; };
+		70AFB0571B75E7920008E45A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AFB0561B75E7920008E45A /* Images.xcassets */; };
+		70AFB05A1B75E7920008E45A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70AFB0581B75E7920008E45A /* LaunchScreen.xib */; };
+		70AFB0661B75E7920008E45A /* AcranoidDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AFB0651B75E7920008E45A /* AcranoidDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70AFB0601B75E7920008E45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70AFB0391B75E7910008E45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70AFB0401B75E7910008E45A;
+			remoteInfo = AcranoidDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70AFB0411B75E7910008E45A /* AcranoidDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcranoidDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AFB0451B75E7910008E45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AFB0461B75E7910008E45A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AFB0481B75E7910008E45A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70AFB0491B75E7910008E45A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70AFB04B1B75E7910008E45A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		70AFB04C1B75E7910008E45A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		70AFB04E1B75E7910008E45A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		70AFB0501B75E7910008E45A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		70AFB0511B75E7910008E45A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		70AFB0541B75E7910008E45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70AFB0561B75E7920008E45A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70AFB0591B75E7920008E45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70AFB05F1B75E7920008E45A /* AcranoidDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcranoidDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AFB0641B75E7920008E45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AFB0651B75E7920008E45A /* AcranoidDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcranoidDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70AFB03E1B75E7910008E45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AFB05C1B75E7920008E45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70AFB0381B75E7910008E45A = {
+			isa = PBXGroup;
+			children = (
+				70AFB0431B75E7910008E45A /* AcranoidDemo */,
+				70AFB0621B75E7920008E45A /* AcranoidDemoTests */,
+				70AFB0421B75E7910008E45A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70AFB0421B75E7910008E45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70AFB0411B75E7910008E45A /* AcranoidDemo.app */,
+				70AFB05F1B75E7920008E45A /* AcranoidDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70AFB0431B75E7910008E45A /* AcranoidDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70AFB0481B75E7910008E45A /* AppDelegate.h */,
+				70AFB0491B75E7910008E45A /* AppDelegate.m */,
+				70AFB04B1B75E7910008E45A /* GameScene.h */,
+				70AFB04C1B75E7910008E45A /* GameScene.m */,
+				70AFB04E1B75E7910008E45A /* GameScene.sks */,
+				70AFB0501B75E7910008E45A /* GameViewController.h */,
+				70AFB0511B75E7910008E45A /* GameViewController.m */,
+				70AFB0531B75E7910008E45A /* Main.storyboard */,
+				70AFB0561B75E7920008E45A /* Images.xcassets */,
+				70AFB0581B75E7920008E45A /* LaunchScreen.xib */,
+				70AFB0441B75E7910008E45A /* Supporting Files */,
+			);
+			path = AcranoidDemo;
+			sourceTree = "<group>";
+		};
+		70AFB0441B75E7910008E45A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70AFB0451B75E7910008E45A /* Info.plist */,
+				70AFB0461B75E7910008E45A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70AFB0621B75E7920008E45A /* AcranoidDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				70AFB0651B75E7920008E45A /* AcranoidDemoTests.m */,
+				70AFB0631B75E7920008E45A /* Supporting Files */,
+			);
+			path = AcranoidDemoTests;
+			sourceTree = "<group>";
+		};
+		70AFB0631B75E7920008E45A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70AFB0641B75E7920008E45A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70AFB0401B75E7910008E45A /* AcranoidDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AFB0691B75E7920008E45A /* Build configuration list for PBXNativeTarget "AcranoidDemo" */;
+			buildPhases = (
+				70AFB03D1B75E7910008E45A /* Sources */,
+				70AFB03E1B75E7910008E45A /* Frameworks */,
+				70AFB03F1B75E7910008E45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcranoidDemo;
+			productName = AcranoidDemo;
+			productReference = 70AFB0411B75E7910008E45A /* AcranoidDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70AFB05E1B75E7920008E45A /* AcranoidDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AFB06C1B75E7920008E45A /* Build configuration list for PBXNativeTarget "AcranoidDemoTests" */;
+			buildPhases = (
+				70AFB05B1B75E7920008E45A /* Sources */,
+				70AFB05C1B75E7920008E45A /* Frameworks */,
+				70AFB05D1B75E7920008E45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70AFB0611B75E7920008E45A /* PBXTargetDependency */,
+			);
+			name = AcranoidDemoTests;
+			productName = AcranoidDemoTests;
+			productReference = 70AFB05F1B75E7920008E45A /* AcranoidDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70AFB0391B75E7910008E45A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Semen Matsepura";
+				TargetAttributes = {
+					70AFB0401B75E7910008E45A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					70AFB05E1B75E7920008E45A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 70AFB0401B75E7910008E45A;
+					};
+				};
+			};
+			buildConfigurationList = 70AFB03C1B75E7910008E45A /* Build configuration list for PBXProject "AcranoidDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70AFB0381B75E7910008E45A;
+			productRefGroup = 70AFB0421B75E7910008E45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70AFB0401B75E7910008E45A /* AcranoidDemo */,
+				70AFB05E1B75E7920008E45A /* AcranoidDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70AFB03F1B75E7910008E45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AFB05A1B75E7920008E45A /* LaunchScreen.xib in Resources */,
+				70AFB0571B75E7920008E45A /* Images.xcassets in Resources */,
+				70AFB04F1B75E7910008E45A /* GameScene.sks in Resources */,
+				70AFB0551B75E7910008E45A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AFB05D1B75E7920008E45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70AFB03D1B75E7910008E45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AFB0521B75E7910008E45A /* GameViewController.m in Sources */,
+				70AFB04A1B75E7910008E45A /* AppDelegate.m in Sources */,
+				70AFB04D1B75E7910008E45A /* GameScene.m in Sources */,
+				70AFB0471B75E7910008E45A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AFB05B1B75E7920008E45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AFB0661B75E7920008E45A /* AcranoidDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70AFB0611B75E7920008E45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70AFB0401B75E7910008E45A /* AcranoidDemo */;
+			targetProxy = 70AFB0601B75E7920008E45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70AFB0531B75E7910008E45A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70AFB0541B75E7910008E45A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70AFB0581B75E7920008E45A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70AFB0591B75E7920008E45A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70AFB0671B75E7920008E45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70AFB0681B75E7920008E45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70AFB06A1B75E7920008E45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcranoidDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AFB06B1B75E7920008E45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcranoidDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AFB06D1B75E7920008E45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcranoidDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcranoidDemo.app/AcranoidDemo";
+			};
+			name = Debug;
+		};
+		70AFB06E1B75E7920008E45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcranoidDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcranoidDemo.app/AcranoidDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70AFB03C1B75E7910008E45A /* Build configuration list for PBXProject "AcranoidDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AFB0671B75E7920008E45A /* Debug */,
+				70AFB0681B75E7920008E45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AFB0691B75E7920008E45A /* Build configuration list for PBXNativeTarget "AcranoidDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AFB06A1B75E7920008E45A /* Debug */,
+				70AFB06B1B75E7920008E45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70AFB06C1B75E7920008E45A /* Build configuration list for PBXNativeTarget "AcranoidDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AFB06D1B75E7920008E45A /* Debug */,
+				70AFB06E1B75E7920008E45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70AFB0391B75E7910008E45A /* Project object */;
+}
